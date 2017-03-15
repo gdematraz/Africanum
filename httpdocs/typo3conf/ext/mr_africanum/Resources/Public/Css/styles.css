@@ -1,0 +1,227 @@
+
+
+.portfolio-section {
+     padding-bottom: 0;
+    float: left;
+    width: 100%;
+}
+
+
+/* category filter */
+
+.filter-section {
+    padding-bottom: 0;
+    float: left;
+    width: 100%;
+}
+
+
+.filter-container {
+    text-align:center;
+    padding:0px 20px 20px;
+}
+
+
+ul.filter > li > a {
+    padding: 9px 0px;
+    text-decoration: none;
+    color: #242424;
+    display: block;
+    line-height: 25px;
+    box-sizing: border-box;
+	    border-bottom: transparent;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	border-bottom: 2px solid transparent;
+}
+
+ul.filter > li > a:hover,ul.filter > li > a:focus {
+border-bottom: 2px solid #c77a49;
+}
+
+ul.filter > li.active a {
+    color:#111;     border-bottom: 2px solid #c77a49;
+}
+
+ul.filter > li span {
+    color:#ddd;
+    font-size:20px;
+    display:inline-block;
+    margin:0 5px
+}
+
+.filter-section .filter-container .filter > li {
+    color: #242424;
+    display: inline-block;
+    font-family: "Roboto Slab",serif;
+    font-size: 16px;
+    font-weight: 700;
+    list-style: outside none none;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 28px;
+    text-transform: uppercase;
+}
+
+.filter-section h1 {
+    text-align:center
+}
+
+
+/* the color of the transparent overlay border */
+
+/* portfolio images */
+
+.portfolio-section figure {
+    float:left;
+    width:100%;
+    position:relative
+}
+
+.portfolio-section figure img {
+    width:100%;
+    height:auto
+}
+
+
+/* project title under image */
+
+.portfolio-section .article-title {
+    text-align:center;
+    float:left;
+    width:100%;
+    font-size:18px;
+    line-height:24px;
+    padding:10px 0 30px 0;
+}
+
+.portfolio-section .article-title a {
+    color:#aaa
+}
+
+
+/* transparent overlay */
+
+figure:hover .overlay {
+    opacity:1;
+    visibility:visible
+}
+
+figure:hover .overlay-background {
+    opacity:.9;
+    visibility:visible
+}
+
+figure .overlay-background {
+    z-index:1;
+    -webkit-transition:all .2s ease-in-out;
+    -moz-transition:all .2s ease-in-out;
+    -o-transition:all .2s ease-in-out;
+    transition:all .2s ease-in-out;
+    position:absolute;
+    top:0;
+    left:0;
+    opacity:0;
+    visibility:hidden;
+    width:100%;
+    height:100%
+}
+
+figure .overlay-background .inner {
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    background-color:rgba(244,184,92,0.9)
+}
+
+figure .overlay {
+    z-index:2;
+    transition:all .2s ease-in-out;
+    position:absolute;
+    top:0;
+    left:0;
+    opacity:0;
+    visibility:hidden;
+    width:100%;
+    height:100%
+}
+
+figure .inner-overlay {
+    display:table;
+    width:100%;
+    height:100%
+}
+
+figure .inner-overlay-content {
+    display:table-cell;
+    vertical-align:middle;
+    width:100%;
+    padding:20px 40px
+}
+
+figure .inner-overlay-content.with-icons {
+    text-align:center
+}
+
+
+/* icons inside overlay */
+
+figure .inner-overlay-content.with-icons a {
+    width:40px;
+    height:40px;
+    line-height: 40px;
+    display:inline-block;
+    margin:0 10px;
+    text-decoration:none;
+    font-size:20px;
+    color:#000;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+
+/* skew image on hover */ 
+
+.isotopeSelector img {
+    -webkit-transition:all .4s ease;
+    -moz-transition:all .4s ease;
+    -ms-transition:all .4s ease;
+    -o-transition:all .4s ease;
+    transition:all .4s ease
+}
+
+.isotopeSelector:hover img {
+    -webkit-transition:all .8s ease;
+    -moz-transition:all .8s ease;
+    -ms-transition:all .8s ease;
+    -o-transition:all .8s ease;
+    transition:all .8s ease
+}
+
+.isotopeSelector figure {
+    overflow:hidden
+}
+
+.isotopeSelector figure {
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+.filter-section .filter-container .filter > li {
+ 
+    font-size: 16px;
+
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 5px;
+
+}
+
+}
+@media only screen and (max-width: 259px){
+	
+}

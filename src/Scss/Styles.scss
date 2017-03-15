@@ -1,0 +1,219 @@
+/*
+ * @auteur: Grégoire Dématraz <gregoire@hemmer.ch>
+ * @version: 1.0
+ * @date de création: 8.03.2017
+ * @dernière modification: 22.03.2017
+ * @description: Ce fichier permet de surcharger les styles du template préconçu. <https://tinyurl.com/charitypro>
+ */
+
+/********************************************************************************************************/
+/* Import des variables, mixins (cf. Documentation ch.XY) */
+
+@import 'Partials/variables';
+@import 'Partials/mixins';
+@import '../Vendors/font-awesome/scss/font-awesome';
+
+/********************************************************************************************************/
+/* Positionnement et définition des styles du logo */
+
+
+.logo {
+  width: 24.8%;
+  margin: 0;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  img {
+    width: 80px;
+    margin-top: 10px;
+  }
+
+  .logo-title {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    width: 130px;
+    margin-left: 10px;
+    color: #000;
+    margin-top: 10px;
+  }
+}
+
+/********************************************************************************************************/
+/* Faire en sorte que la hauteur des colonnes des actualités soit définie par la colonne la plus haute. */
+
+.news_col {
+  height: 100%;
+  box-shadow: 0 0 5px #ccc;
+  background: #fff;
+}
+
+.news_info.event_page {
+  box-shadow: none;
+}
+
+.news_info {
+  background: transparent;
+}
+
+.row-eq-height {
+  display: flex;
+  flex-wrap: wrap;
+
+  > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/********************************************************************************************************/
+/* Positionnement et définition des styles de la barre de navigation */
+
+nav .navbar-collapse > ul > li > a {
+  font-size: 14px;
+  text-align: center;
+}
+
+a.view-all {
+  width: 115px;
+  font-size: 13px;
+}
+
+.sticky_header {
+  .logo {
+    @media screen and (min-width: 768px) { width: 24.8%; }
+    margin-top: 0;
+
+    img {
+      margin-top: 0;
+    }
+
+    .logo-title {
+      margin-top: 0;
+    }
+  }
+  
+  nav {
+    float: right;
+  }
+}
+
+nav .navbar-collapse > ul > li.active > a {
+  color: #ad6334;
+}
+
+.main_header_dash_bg {
+  padding: 15px 0;
+}
+
+/********************************************************************************************************/
+/* Positionnement et définition du style de la sous-navigation */
+
+nav.subnav {
+  ul {
+    > li {
+      > a {
+        font-family: 'Roboto Slab', serif;
+        font-size: 15px;
+        color: #000;
+      }
+    }
+  }
+}
+
+/********************************************************************************************************/
+/* Positionnement et définition des styles du carousel */
+
+#minimal-bootstrap-carousel.slider1 .slide-2 .carousel-caption h2 {
+  font-size: 23px;
+}
+
+/********************************************************************************************************/
+/* Positionnement et définition des styles du footer */
+
+.ftr_txt_div {
+  margin-top: 40px;
+}
+
+.ftr_nav {
+  margin: 40px 0px 0px;
+}
+
+/********************************************************************************************************/
+/* Positionnement et définition des styles de la section liens utiles */
+
+.friends {
+  li {
+    a {
+      color: #000;
+      font-family: 'Roboto Slab', serif;
+    }
+  }
+}
+
+/********************************************************************************************************/
+/* Positionnement et définition des styles de la zone de promotion de la salle */
+
+.salle {
+  background: url(../Images/Africanum/P1030039_Confirmands_Payerne.JPG);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+}
+
+.blur {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(0,0,0,.5);
+}
+
+.blur-content {
+  z-index: 15;
+  position: relative;
+}
+
+.salle .absolute-legend {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0 10px 10px 0;
+}
+
+/********************************************************************************************************/
+/* Positionnement et définition des styles des boutons*/
+
+a.view-all.volun_join_now {
+  color: #FFF;
+  border: 2px solid #FFF;
+  text-transform: none;
+  font-size: 18px;
+}
+
+a.view-all.event_read_btn {
+  width: 100%;
+}
+
+/********************************************************************************************************/
+/* Positionnement et définition des styles du contenu principal */
+
+.main-content {
+  padding: 35px 0;
+}
+
+/********************************************************************************************************/
+/* Positionnement et définition des styles de la vue détail des actualités */
+
+.detail_img {
+  max-height: 300px;
+  overflow-y: hidden;
+  position: relative;
+
+  img {
+    margin-top: -150px;
+  }
+}
+

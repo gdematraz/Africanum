@@ -1,0 +1,15 @@
+{
+  "name": "Starter FE",
+  "description": "Starter for frontend",
+  "main": "gulpfile.js",
+  "authors": [
+    "Jérémie Roulin <jeremie@hemmer.ch>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "node_modules",
+    "test",
+    "tests"
+  ]
+}

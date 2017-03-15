@@ -1,0 +1,136 @@
+
+.entry-content{
+	max-width:1200px;
+	margin:0px auto;
+}
+.nimble-portfolio-filter ul li.current {
+
+}
+.nimble-portfolio-template-round-2 .nimble-portfolio-filter ul{
+width: 100%!important;
+float: left; text-align:center;
+padding: 0px; margin-bottom:50px;
+
+}
+.nimble-portfolio-template-round-2 .nimble-portfolio-filter ul li{
+    list-style: none;
+	display:inline-block;
+font-size: 16px;
+color: #242424;
+font-family: 'Roboto Slab', serif; font-weight:700;
+text-transform:uppercase;
+margin-right:56px;
+}
+.nimble-portfolio-template-round-2 .nimble-portfolio-filter ul li:last-child{
+	margin-right:0px;
+}
+.nimble-portfolio-template-round-2 .nimble-portfolio-filter ul li a{
+	padding:9px 0px;
+text-decoration: none;
+color: #242424;
+
+    display:block;
+    line-height:25px;
+  
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+
+.nimble-portfolio-template-round-2 .nimble-portfolio-filter ul li a:hover{
+	border-bottom:2px solid #c77a49;
+}
+.nimble-portfolio-template-round-2 .nimble-portfolio-filter ul li a:active, .nimble-portfolio-template-round-2 .nimble-portfolio-filter ul li.current a{
+	border-bottom:2px solid #c77a49;
+}
+.nimble-portfolio-template-round-2 .nimble-portfolio-item{
+    width: 370px;
+height: 298px;
+    display:block;
+    background-repeat:no-repeat
+}
+.nimble-portfolio-template-round-2 .nimble-portfolio-rollerbg{
+    background-image:url(images/gallery_page/pitemlbg.png);
+    background-repeat:no-repeat;
+    width:370px;
+    height:298px;
+    display:block;
+    background-position:top
+}
+.nimble-portfolio-template-round-2 .nimble-portfolio-rollerbg:hover{
+    background-image: url(../images/gallery_page/prj_hover.png);
+    background-repeat:no-repeat;
+    width:370px;
+    height:298px;
+    display:block;
+    background-position:top
+}
+
+.nimble-portfolio-template-round-2 .nimble-portfolio-ul{
+    float:left;
+    list-style:none;
+    margin:0;
+    padding:0;
+    font-size:12px;
+    width:100%!important;
+}
+.nimble-portfolio-template-round-2 .nimble-portfolio-ul.bg1{
+	background:url(../images/bg_1.png) repeat;
+	padding:6px;
+}
+.nimble-portfolio-template-round-2 .nimble-portfolio ul li{
+    background-color:#fff;
+    float:left;
+     width: 31.5%;
+    list-style:none; margin-right:30px; margin-bottom:30px;
+}
+.nimble-portfolio-template-round-2 .nimble-portfolio ul li:nth-child(3), .nimble-portfolio-template-round-2 .nimble-portfolio ul li:nth-child(6),
+.nimble-portfolio-template-round-2 .nimble-portfolio ul li:nth-child(9), .nimble-portfolio-template-round-2 .nimble-portfolio ul li:nth-child(12){
+	margin-right:0px;
+}
+.nimble-portfolio-template-round-2 .nimble-portfolio ul li.nim_port{
+	width:376px;
+	margin:5px;
+}
+.nimble-portfolio-template-round-2 .nimble-portfolio ul li a.button-fixed{
+    float:left;
+    font-size:11px;
+    font-weight:400;
+    height:29px;
+    line-height:26px;
+    margin:10px 0 0;
+    text-align:left;
+    width:88px
+}
+.nimble-portfolio-template-round-2 .nimble-portfolio .nimble-portfolio-title{
+    margin:5px 0;
+    font-size:14px;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: bold;
+}
+.nimble-portfolio-template-round-2 .nimble-portfolio .nimble-portfolio-title h5{font-size: 20px;
+font-weight: bold;
+margin-bottom: 5px;
+color:#000;
+}
+.nimble-portfolio-template-round-2 .nimble-portfolio .nimble-portfolio-title h5 a{
+	color:#000;
+	text-decoration:none;
+}
+.nimble-portfolio-template-round-2 .nimble-portfolio .nimble-portfolio-title h5 a:hover{
+	color:#06F;
+}
+.nimble-portfolio-template-round-2 .nimble-portfolio .nimble-portfolio-title p {
+font-size: 16px;
+color: #999;
+margin: 0px;
+}
+.nimble-portfolio-template-round-2 .nimble-portfolio-links{
+    text-align:center;
+    margin:-10px 0 10px 32px;
+    display:block;
+    clear:both;
+}
